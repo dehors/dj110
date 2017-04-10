@@ -27,6 +27,16 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'correo@gmail.com'
+EMAIL_HOST_PASSWORD = 'password'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+'''
+    para gmail hay que desbloquear captcha
+    https://accounts.google.com/displayunlockcaptcha
+'''
 
 # Application definition
 
